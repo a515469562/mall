@@ -14,7 +14,7 @@ class CommonController extends Controller
 
     public function login(){
         $guard = self::GUARD;
-        $credentials = request()->only(['email', 'password']);
+        $credentials = request()->only(['username', 'password']);
         $paramsCount = 2;
         if (empty($credentials) || count($credentials) < $paramsCount){
             return self::apiError('参数错误');
