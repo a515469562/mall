@@ -37,6 +37,7 @@ class ComposerStaticInit5c545093faf19a5f004f007bcfb315bd
         'b6b991a57620e2fb6b2f66f03fe9ddc2' => __DIR__ . '/..' . '/symfony/string/Resources/functions.php',
         'ed962a97bd972bc82007176b647d4e36' => __DIR__ . '/..' . '/facade/ignition/src/helpers.php',
         'fdb3b5f01b3ed818a713c5450349237f' => __DIR__ . '/../..' . '/app/Helpers/functions.php',
+        '9fd783dcfdcbaf071b755ce7a6f01a1f' => __DIR__ . '/../..' . '/app/Components/code.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -529,7 +530,9 @@ class ComposerStaticInit5c545093faf19a5f004f007bcfb315bd
     public static $classMap = array (
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
+        'App\\Http\\Controllers\\Api\\AuthController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/AuthController.php',
         'App\\Http\\Controllers\\Api\\CommonController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/CommonController.php',
+        'App\\Http\\Controllers\\Api\\WxController' => __DIR__ . '/../..' . '/app/Http/Controllers/Api/WxController.php',
         'App\\Http\\Controllers\\Controller' => __DIR__ . '/../..' . '/app/Http/Controllers/Controller.php',
         'App\\Http\\Kernel' => __DIR__ . '/../..' . '/app/Http/Kernel.php',
         'App\\Http\\Middleware\\Authenticate' => __DIR__ . '/../..' . '/app/Http/Middleware/Authenticate.php',

@@ -20,7 +20,7 @@ class RouteServiceProvider extends ServiceProvider
      *
      * @var string|null
      */
-    protected $namespace;
+    protected $namespace = 'App\Http\Controllers\Api';
 
     /**
      * The callback that should be used to load the application's routes.
